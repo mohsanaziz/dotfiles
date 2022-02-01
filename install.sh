@@ -13,6 +13,9 @@ ln -sf $DOTFILES_PATH/.zshrc $HOME/.zshrc
 # Applications installation
 brew bundle install --file=$DOTFILES_PATH/Brewfile
 
+# Symlink for the JDK
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
 # git configuration installation
 ln -sf $DOTFILES_PATH/.gitconfig $HOME/.gitconfig
 
