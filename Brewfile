@@ -8,13 +8,11 @@ brew "angular-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
-brew "node@16"
+brew "node@18"
 # Development kit for the Java programming language
 brew "openjdk"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Firefox developer
-cask "firefox-developer-edition"
 # IDE for Java development - community edition
 cask "intellij-idea-ce"
 # LG monitor software
