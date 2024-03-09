@@ -27,8 +27,14 @@ Clone the repository inside `$HOME/.dotfiles` :
 git clone git@github.com:mohsanaziz/dotfiles.git .dotfiles
 ```
 
-Then run the install script from the `$HOME/.dotfiles` :
+Then run the main install script from the `$HOME/.dotfiles` :
 
 ```bash
 /bin/bash install.sh
+```
+
+When it is done. Install all the tools :
+
+```bash
+/bin/bash install_tools.sh
 ```
