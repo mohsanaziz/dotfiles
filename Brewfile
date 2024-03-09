@@ -8,7 +8,7 @@ brew "angular-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
-brew "node@18"
+brew "node@20"
 # Development kit for the Java programming language
 brew "openjdk"
 # App to build and share containerized applications and microservices
@@ -17,8 +17,6 @@ cask "docker"
 cask "intellij-idea-ce"
 # LG monitor software
 cask "lg-onscreen-control"
-# TeX distribution
-cask "mactex"
 # Unpacks archive files
 cask "the-unarchiver"
 # Open-source code editor
@@ -27,6 +25,14 @@ cask "visual-studio-code"
 cask "vlc"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# Alt server
+cask "altserver"
+# Google chrome
+cask "google-chrome"
+# Elgato wave link
+cask "elgato-wave-link"
+# Elgato stream deck
+cask "elgato-stream-deck"
 
 # Applications from the Mac App Store
 mas "AdBlock Pro", id: 1018301773
