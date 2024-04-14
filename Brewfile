@@ -12,8 +12,8 @@ brew "openjdk"
 cask "docker"
 # IDE for Java development - community edition
 cask "intellij-idea-ce"
-# LG monitor software
-cask "lg-onscreen-control"
+# Rectangle (window snapping)
+cask "rectangle"
 # Unpacks archive files
 cask "the-unarchiver"
 # Open-source code editor
